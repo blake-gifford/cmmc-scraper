@@ -55,8 +55,8 @@ const scrapeData = async (typeId) => {
 };
 
 const crawl = async () => {
-	// add intervals
-	// allow for multiple ecosystem roles
+	// TODO: add intervals
+	// TODO: allow for multiple ecosystem roles
 	const data = await scrapeData(typeMap.ccp);
 	console.dir(data, { depth: null, colors: true })
 }
